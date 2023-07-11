@@ -1,0 +1,19 @@
+.label {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.label span {
+  font-weight: 900;
+  margin-right: 6px;
+}
+.input {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+input[type="checkbox"] {
+  accent-color: #ff6600;
+}

@@ -1,0 +1,16 @@
+.img-fluid {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+.fa-f4 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.mb-5 {
+  margin-top: 30px;
+}
+.carousel {
+  margin-bottom: 50px;
+}
+
