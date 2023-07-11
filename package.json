@@ -1,0 +1,55 @@
+{
+  "name": "briskly",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^4.5.3",
+    "font-awesome": "^4.7.0",
+    "react": "^18.2.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^1.6.7",
+    "react-content-loader": "^6.2.1",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.0.7",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.62.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "proxy": "lcp --proxyUrl https://breakhd2.store"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "local-cors-proxy": "^1.1.0"
+  }
+}

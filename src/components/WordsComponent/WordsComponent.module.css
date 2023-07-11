@@ -1,0 +1,32 @@
+.wordsBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 24px;
+  text-align: start;
+  padding: 20px 24px;
+  background-color: #dff7dd;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.wordItem {
+  padding: 6px 0;
+  color: #6c6a74;
+}
+.wordsBox span {
+  font-weight: 900;
+}
+.btnBox {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+@media (max-width: 426px) {
+  .wordsBox {
+    padding: 10px 16px;
+  }
+  .btnBox {
+    gap: 12px;
+    flex-direction: column;
+  }
+}
